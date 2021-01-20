@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f7d5d883-72be-4ef3-b918-50cf9ed5c875","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "RPGTutorial",
-    "path": "RPGTutorial.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sCol",

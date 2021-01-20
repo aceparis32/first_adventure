@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 state = PlayerStateFree;
-
+stateAttack = AttackSlash;
+hitByAttack = -1;
 //  Get the box collider tilemap
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 

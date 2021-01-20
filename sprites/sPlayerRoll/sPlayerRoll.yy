@@ -160,8 +160,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6d428ec1-9ffb-4bf1-a722-c498abe5c367","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "RPGTutorial",
-    "path": "RPGTutorial.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayerRoll",

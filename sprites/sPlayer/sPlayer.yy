@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6a236d9d-1745-4d5a-9dda-d65476c83e04","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "RPGTutorial",
-    "path": "RPGTutorial.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayer",
