@@ -15,3 +15,5 @@ textProgress = 0;
 message = "Default message text\nPress enter to close the textbox";
 // sTextBoxBG select image index
 background = 0;
+
+showDialogue = false;

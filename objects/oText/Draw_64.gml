@@ -1,4 +1,8 @@
 /// @description Draw Textbox
+if(!showDialogue){
+	exit;
+}
+
 NineSliceBoxStrecthed(sTextBoxBG, x1, y1, x2, y2, background);
 draw_set_font(fText);
 draw_set_halign(fa_center);
