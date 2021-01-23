@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 state = PlayerStateFree;
+lastState = state;
 stateAttack = AttackSlash;
 hitByAttack = -1;
 //  Get the box collider tilemap

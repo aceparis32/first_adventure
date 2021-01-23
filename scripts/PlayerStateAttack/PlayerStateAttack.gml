@@ -47,7 +47,14 @@ function CalcAttack(_playerHB){
 			if (ds_list_find_index(hitByAttack, hitID) == -1){
 				ds_list_add(hitByAttack, hitID);
 				with(hitID){
-					image_blend = c_red;	
+					//// when attacked, turn instance color to red
+					//image_blend = c_red;
+					// if the object was hit
+					// execute the entityHitScript variable in that object
+					// it can be destroyed, flash effect, etc
+					if (entityHitScript != -1){
+						script_execute(entityHitScript);
+					}
 				}
 			}
 		}
