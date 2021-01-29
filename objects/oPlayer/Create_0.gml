@@ -16,10 +16,22 @@ vSpeed = 0;
 // Player speed walk
 speedWalk = 2.0;
 speedRoll = 3.0;
+speedDash = 3.0;
 distanceRoll = 52;
+distanceDash = 50;
+
+// Cooldown
+dashCooldown = 0.0;
 
 // Store sprite into variables
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 spriteRoll = sPlayerRoll;
 localFrame = 0;
+
+// player inventory
+inventory = ds_list_create();
+// add player inventory item
+//ds_list_add(inventory, new Star());
+//ds_list_add(inventory, new Branch());
+//ds_list_add(inventory, new Mushroom());

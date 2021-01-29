@@ -52,7 +52,7 @@ function CalcAttack(_playerHB){
 					// if the object was hit
 					// execute the entityHitScript variable in that object
 					// it can be destroyed, flash effect, etc
-					if (entityHitScript != -1){
+					if (entityHitScript != -1 && entityHitType == "melee"){
 						script_execute(entityHitScript);
 					}
 				}

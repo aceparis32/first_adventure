@@ -65,4 +65,11 @@ function PlayerStateFree(){
 			}
 		}
 	}
+	
+	// Change state to dash
+	if (keyDash && dashCooldown <= 0){
+		show_debug_message("player dash");
+		state = PlayerStateDash;
+		moveDistanceRemaining = distanceDash;
+	}
 }

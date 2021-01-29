@@ -8,6 +8,8 @@ keyDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 keyActivate = keyboard_check_pressed(vk_space);
 keyAttack = keyboard_check_pressed(vk_shift);
 keyItem = keyboard_check_pressed(vk_control);
+keyItemInventory = keyboard_check_pressed(ord("E"));
+keyDash = keyboard_check_pressed(ord("V"));
 // This is the example to use mouse click button
 // keyHighAttack = mouse_check_button_pressed(mb_left);
 
@@ -16,6 +18,14 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 
 if (!global.gamePaused) {
 	script_execute(state);	
+}
+
+if(keyDash && dashCooldown <= 0){
+	dashCooldown = 3 * 60;
+}
+
+if(dashCooldown > 0){
+	dashCooldown--;	
 }
 
 depth = -bbox_bottom;
